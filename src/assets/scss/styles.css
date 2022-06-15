@@ -1,0 +1,211 @@
+* {
+  font-family: "DM Sans Regular";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+.btn-link {
+  border-radius: 7px;
+  font-size: 0.85rem;
+  font-family: "DM Sans Bold";
+  padding: 0.7rem;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+input,
+select {
+  border-radius: 7px;
+  width: 100%;
+  border: 0;
+  background-color: #f1f1f1;
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  margin: 0.6rem 0;
+  outline: none;
+}
+
+.field {
+  padding: 1rem 0;
+}
+
+label {
+  font-family: "DM Sans Bold";
+  font-size: 0.95rem;
+}
+
+.required::after {
+  content: " *";
+  color: red;
+}
+
+.btn-pm {
+  background-color: #126edf;
+  color: #fff;
+}
+
+.btn-dg {
+  background-color: #ff3737;
+  color: #fff;
+}
+
+.btn-udt {
+  margin-right: 1rem;
+}
+
+.text-danger {
+  color: #ff3737;
+}
+
+table {
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+table thead {
+  text-align: left;
+  border-radius: 5px;
+}
+
+table thead th {
+  font-family: "DM Sans Bold";
+}
+
+table th,
+table td {
+  padding: 0.5rem 1rem;
+}
+
+h1 {
+  margin: 2rem 0;
+  font-family: "DM Sans Bold";
+  color: #6a6a6a;
+}
+
+#app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100vh;
+}
+
+#app .auth-content {
+  width: 30rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+#app .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  width: 100%;
+  padding: 2rem;
+  border-bottom: 20px solid transparent;
+  -o-border-image: linear-gradient(to right, #bb7798 0%, #6779b7 50%, #6e886b 100%) 1;
+     border-image: -webkit-gradient(linear, left top, right top, from(#bb7798), color-stop(50%, #6779b7), to(#6e886b)) 1;
+     border-image: linear-gradient(to right, #bb7798 0%, #6779b7 50%, #6e886b 100%) 1;
+}
+
+#app .header .logo-header {
+  width: 10rem;
+  margin-left: 3rem;
+}
+
+#app .footer {
+  background-color: #508bb0;
+  color: #fff;
+  padding: 5rem 7rem;
+  width: 100%;
+  left: 0;
+  margin-top: 5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 1fr 1fr;
+      grid-template-columns: 40% 1fr 1fr;
+  grid-gap: 5rem;
+}
+
+#app .footer h5 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#app .footer a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+#app .footer .left {
+  text-align: center;
+  border-right: 1.5px solid #a2a7ab;
+}
+
+#app .footer .left h5,
+#app .footer .left p {
+  margin-top: 1rem;
+}
+
+#app .footer .left .p-left {
+  padding-bottom: 2.5rem;
+}
+
+#app .footer .left a {
+  padding: 0.8rem 1.3rem;
+  background-color: #494949;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+}
+
+#app .footer .right h5:not(:first-child),
+#app .footer .center h5:not(:first-child) {
+  margin: 1.5rem 0;
+}
+
+#app .footer .right h5:first-child,
+#app .footer .center h5:first-child {
+  margin-bottom: 1.5rem;
+}
+
+#app .survey {
+  padding: 4rem 25rem 2rem 25rem;
+}
+
+#app .survey .questions button {
+  margin-top: 0.8rem;
+}
+
+#app .survey-list {
+  margin: 3rem auto;
+  min-height: 30%;
+}
+
+#app .survey-list h1,
+#app .survey-list h4 {
+  text-align: center;
+}
+
+#app .survey-list table {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=styles.css.map */
