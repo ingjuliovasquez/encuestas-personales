@@ -1,0 +1,4 @@
+node_modules
+encuestas
+.cache.env
+.Ds_Store
